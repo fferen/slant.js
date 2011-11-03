@@ -25,6 +25,10 @@
         'width': '100%',
         'height': '100%'
     });
+    $('body').css({
+        'width': '100%',
+        'height': '100%'
+    });
     alert('hello');
 });
 }());
