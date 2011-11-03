@@ -1,10 +1,10 @@
 $(document).ready(function () {
     $('body').html('').append('<div id="rotateDiv"><iframe id="rotateFrame" src="' + window.location.href + '" \></div>');
     $('div#rotateDiv').css({
-        '-webkit-transform': 'rotate(5deg)',
-        '-moz-transform': 'rotate(5deg)',
-        '-o-transform': 'rotate(5deg)',
-        '-ms-transform': 'rotate(5deg)',
+        '-webkit-transform': 'rotate(2deg)',
+        '-moz-transform': 'rotate(2deg)',
+        '-o-transform': 'rotate(2deg)',
+        '-ms-transform': 'rotate(2deg)',
     });
     $('iframe#rotateFrame').css({
         'width': '100%',
