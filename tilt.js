@@ -6,3 +6,5 @@ $(document).ready(function () {
         '-o-transform': 'rotate(5deg)',
         '-ms-transform': 'rotate(5deg)'
     });
+    alert('hello');
+});

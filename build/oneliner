@@ -1,1 +1,1 @@
-javascript:var%20s=document.createElement('script');s.type='text/javascript';s.src='URL';document.body.appendChild(s);void(0);
+javascript:var%20s=document.createElement('script');s.type='text/javascript';s.src='https://raw.github.com/fferen/slant.js/master/build/final.js';document.body.appendChild(s);void(0);
