@@ -14,5 +14,4 @@ $(document).ready(function () {
         'width': '99%',
         'height': '99%'
     });
-    alert('hello');
 });
