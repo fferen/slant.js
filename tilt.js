@@ -12,6 +12,6 @@ $(document).ready(function () {
     });
     $('body').css({
         'width': '99%',
-        'height': '99%'
+        'height': '98%'
     });
 });
