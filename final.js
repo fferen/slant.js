@@ -17,15 +17,15 @@
     $('body').html('').append('<div id="rotateDiv"><iframe id="rotateFrame" src="' + window.location.href + '" \></div>');
     $('div#rotateDiv').css({
         'transform': 'rotate(0.5deg)',
-        'transform-origin': '50% 50%',
+        'transform-origin': 'center',
         '-webkit-transform': 'rotate(0.5deg)',
-        '-webkit-transform-origin': '50% 50%',
+        '-webkit-transform-origin': 'center',
         '-moz-transform': 'rotate(0.5deg)',
-        '-moz-transform-origin': '50% 50%',
+        '-moz-transform-origin': 'center',
         '-o-transform': 'rotate(0.5deg)',
-        '-o-transform-origin': '50% 50%',
+        '-o-transform-origin': 'center',
         '-ms-transform': 'rotate(0.5deg)',
-        '-ms-transform-origin': '50% 50%',
+        '-ms-transform-origin': 'center',
     });
     $('iframe#rotateFrame').css({
         'width': '100%',
