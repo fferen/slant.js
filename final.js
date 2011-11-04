@@ -27,10 +27,10 @@
         '-ms-transform': 'rotate(0.5deg)',
         '-ms-transform-origin': 'center center',
     });
-    $('iframe#rotateFrame').css({
-        'width': '100%',
-        'height': '100%'
-    });
+//    $('iframe#rotateFrame').css({
+//        'width': '100%',
+//        'height': '100%'
+//    });
     $('body').css({
         'width': '99%',
         'height': '97%'
