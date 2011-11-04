@@ -1,5 +1,8 @@
 $(document).ready(function () {
-    $('body').css({
+    $('body').html('').append('<iframe id="rotateFrame" src="' + window.location.href + '" \>');
+    $('iframe#rotateFrame').css({
+        'width': '100%',
+        'height': '100%',
         'transform': 'rotate(0.5deg)',
         'transform-origin': '50% 50%',
         '-webkit-transform': 'rotate(0.5deg)',
@@ -10,5 +13,9 @@ $(document).ready(function () {
         '-o-transform-origin': '50% 50%',
         '-ms-transform': 'rotate(0.5deg)',
         '-ms-transform-origin': '50% 50%'
+    });
+    $('body').css({
+        'width': '99%',
+        'height': '97%'
     });
 });
