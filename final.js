@@ -30,8 +30,8 @@
         '-ms-transform-origin': '50% 50%'
     });
     $('body').css({
-        'width': '99%',
-        'height': '97%'
+        'width': '100%',
+        'height': '100%'
     });
 });
 }());
