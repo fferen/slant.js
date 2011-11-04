@@ -11,6 +11,8 @@ $(document).ready(function () {
         '-o-transform-origin': '50% 50%',
         '-ms-transform': 'rotate(0.5deg)',
         '-ms-transform-origin': '50% 50%',
+        'width': '100%',
+        'height': '100%'
     });
     $('iframe#rotateFrame').css({
         'width': '100%',
