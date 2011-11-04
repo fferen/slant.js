@@ -1,6 +1,5 @@
 $(document).ready(function () {
-    $('body').html('').append('<div id="rotateDiv"><iframe id="rotateFrame" src="' + window.location.href + '" \></div>');
-    $('div#rotateDiv').css({
+    $('body').css({
         'transform': 'rotate(0.5deg)',
         'transform-origin': '50% 50%',
         '-webkit-transform': 'rotate(0.5deg)',
@@ -11,13 +10,5 @@ $(document).ready(function () {
         '-o-transform-origin': '50% 50%',
         '-ms-transform': 'rotate(0.5deg)',
         '-ms-transform-origin': '50% 50%'
-    });
-    $('iframe#rotateFrame').css({
-        'width': '100%',
-        'height': '100%'
-    });
-    $('body').css({
-        'width': '99%',
-        'height': '97%'
     });
 });
